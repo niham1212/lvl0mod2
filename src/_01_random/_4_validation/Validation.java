@@ -12,11 +12,17 @@ public class Validation {
 		
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
-		
-		System.out.println(randomNumber);
 
-		// 1. Use each value of randomNumber to give the user a random compliment.
+		
+		
+		//int randomNumber = randomMaker.nextInt(5);
+		
+		
+
+	// 1. Use each value of randomNumber to give the user a random compliment.
+for	(int i=0; i<=10;i++) {
+	int randomNumber = randomMaker.nextInt(5);
+System.out.println(randomNumber);
 if(randomNumber == 0) {
 	JOptionPane.showMessageDialog(null, "You are amazing!");
 }
@@ -35,28 +41,9 @@ else if(randomNumber == 4) {
 else {
 	JOptionPane.showMessageDialog(null, "You are intelligent!");
 }
-
+}
 // 2. Repeat all the code above 10 times
-		for(int i=0; i<=10; i++) {
-			if(i == randomNumber) {
-				JOptionPane.showMessageDialog(null, "You are amazing!");
-			}
-			else if(randomNumber == i)	{
-				JOptionPane.showMessageDialog(null, "You rock!");
-			}
-			else if(randomNumber == i) {
-				JOptionPane.showMessageDialog(null, "You rule!");
-			}
-			else if(randomNumber == i) {
-				JOptionPane.showMessageDialog(null, "You are talented!");
-			}
-			else if(randomNumber == i) {
-				JOptionPane.showMessageDialog(null, "You color my world");
-			}
-			else if(randomNumber ==i) {
-				JOptionPane.showMessageDialog(null, "You are intelligent!");
-			}
-		}
+		
 		// 3. Find someone to test out your program. They will like it :)
 	}
 }
