@@ -36,9 +36,12 @@ JOptionPane.showMessageDialog(null, "No");
 	// 6. If the random number is 2
 if(randomNumber==2) {
 	// -- tell the user "Maybe you should ask Google?"
+	JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
 }
 	// 7. If the random number is 3
-
+if(randomNumber==3) {
 	// -- write your own answer
+	JOptionPane.showMessageDialog(null, "I shall be annoying and not answer that question!!");
+}
 	}
 }
