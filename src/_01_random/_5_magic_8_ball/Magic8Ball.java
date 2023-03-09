@@ -40,8 +40,9 @@ if(randomNumber==2) {
 }
 	// 7. If the random number is 3
 if(randomNumber==3) {
-	// -- write your own answer
-	JOptionPane.showMessageDialog(null, "I shall be annoying and not answer that question!!");
+	JOptionPane.showMessageDialog(null, "HMMMMMMMMMMM........");
 }
+	// -- write your own answer
+	
 	}
 }
